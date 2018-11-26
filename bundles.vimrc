@@ -1,7 +1,7 @@
 " required by bundle {
   set nocompatible
   filetype off
-  set rtp+=~/.vim/bundle/vundle
+  set rtp+=~/.vim/bundle/Vundle.vim
   call vundle#rc()
 " }
 
@@ -120,15 +120,9 @@ Bundle 'edkolev/tmuxline.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'airblade/vim-gitgutter'
 
-
 " todo management
 Bundle 'vitalk/vim-simple-todo'
 
 "jsdoc
 Bundle 'heavenshell/vim-jsdoc'
 
-" bundle
-Bundle 'reedes/vim-pencil'
-
-" TaskList
-Bundle 'TaskList.vim'
